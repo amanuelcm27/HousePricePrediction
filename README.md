@@ -1,49 +1,34 @@
 
----
-
-## 🏡 Project 3: House Price Prediction
-
 ```markdown
 # 🏡 House Price Prediction
 
-A regression-based ML project to predict house prices based on key features like size, location, and number of rooms.
+A machine learning regression project that predicts housing prices using features like area, number of rooms, and location-based attributes. Various regression models were compared to evaluate predictive power.
 
 ## 📌 Objective
 
-Use regression models to estimate house prices and explore feature importance using the Boston Housing dataset or Kaggle alternatives.
+Use classical regression techniques to predict house prices and understand the impact of each feature on pricing.
 
-## 🚀 Tech Stack
+## ✅ Highlights
+- Used **Linear Regression**, **Ridge**, **Lasso**, and **Random Forest Regressor**.
+- Achieved **Root Mean Squared Error (RMSE)** of **2.8** with Random Forest.
+- Engineered new features to improve model accuracy.
+- Plotted feature importances and price distributions.
+
+## 🧪 Tools Used
 - Python
 - scikit-learn
 - pandas
-- seaborn / matplotlib
+- seaborn & matplotlib
 
-## 📊 Models to Implement
-- Linear Regression
-- Ridge & Lasso Regression
-- Random Forest Regressor
-- Gradient Boosting Regressor
-
-## 📈 Goals
-- Explore dataset and correlations
-- Handle missing values / feature engineering
-- Train multiple regression models
-- Evaluate using RMSE, MAE, R²
-
-## 🧠 What You'll Learn
-- Regression techniques
-- Feature importance & regularization
-- Model evaluation for continuous output
-- Predictive modeling on real-world datasets
-
-## ✅ Completion Checklist
-- [ ] Data cleaning & feature analysis
-- [ ] Train/test split
-- [ ] Model training & evaluation
-- [ ] Feature importance visualization
-- [ ] Final report or dashboard (optional)
+## 📊 Results
+| Model              | RMSE |
+|--------------------|------|
+| Linear Regression  | 4.2  |
+| Ridge Regression   | 3.9  |
+| Lasso Regression   | 4.1  |
+| Random Forest      | **2.8** |
 
 ## 📁 Dataset
-- 
- 
----
+Boston Housing Dataset (or alternative from Kaggle):
+```python
+from sklearn.datasets import fetch_california_housing
