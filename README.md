@@ -44,7 +44,6 @@ Use regression models to estimate house prices and explore feature importance us
 - [ ] Final report or dashboard (optional)
 
 ## 📁 Dataset
-- Boston Housing Dataset (`sklearn.datasets.load_boston`)  
-  *(Note: deprecated, use alternative housing dataset from Kaggle for current work)*
-
+- 
+ 
 ---
