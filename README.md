@@ -29,6 +29,4 @@ Use classical regression techniques to predict house prices and understand the i
 | Random Forest      | **2.8** |
 
 ## 📁 Dataset
-Boston Housing Dataset (or alternative from Kaggle):
-```python
-from sklearn.datasets import fetch_california_housing
+ N / A
