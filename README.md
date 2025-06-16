@@ -9,7 +9,7 @@ A machine learning regression project that predicts housing prices using feature
 Use classical regression techniques to predict house prices and understand the impact of each feature on pricing.
 
 ## ✅ Highlights
-- Used **Linear Regression**, **Ridge**, **Lasso**, and **Random Forest Regressor**.
+- Used **Linear Regression**,**Random Forest Regressor** and 
 - Achieved **Root Mean Squared Error (RMSE)** of **2.8** with Random Forest.
 - Engineered new features to improve model accuracy.
 - Plotted feature importances and price distributions.
