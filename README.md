@@ -23,9 +23,9 @@ Use classical regression techniques to predict house prices and understand the i
 ## 📊 Results
 | Model              | R2Score |
 |--------------------|------|
-| Linear Regression  | 66%  |
-| Random Forest      | 84% |
-| XGBoost      | 86% |
+| Linear Regression  | 70%  |
+| Random Forest      | 85% |
+| XGBoost      | 87% |
 
 ## 📁 Dataset
 Kaggle
